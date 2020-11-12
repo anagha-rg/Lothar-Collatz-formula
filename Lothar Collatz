@@ -1,0 +1,10 @@
+c0=int(input("Enter any non-negative and non-zero integer number: "))
+while c0!=1:
+    
+    if c0%2==0:
+        c0=c0/2
+        print(c0,end=" ")
+    
+    elif c0%2==1:
+        c0=3*c0+1
+        print(c0,end=" ")
